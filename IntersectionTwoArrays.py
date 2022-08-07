@@ -5,7 +5,7 @@ class Solution:
     def intersect(self, nums1: list[int], nums2: list[int]) -> list[int]:
         nums1_count, nums2_count = Counter(nums1), Counter(nums2)   
 
-
+e
         interspect_dict = {}
         for val in nums1_count.keys():
             if nums2_count.get(val):
